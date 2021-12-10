@@ -1,21 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/website.css">
+    <link rel="stylesheet" href="styles/normalize.css">
     <title>Superhero database</title>
 </head>
+
 <body>
     <header>
         <section>
             <h1>SuperHero Database</h1>
             <img src="" alt="">
         </section>
+        <section class="superheroSearch">
+            <div>
+                <label for="heroSearch">Superhero: </label>
+                <input type="text" id="heroSearch" name="heroSearch">
+            </div>
+            <div>
+                <input type="button" id="submitSearch" name="submitSearch" value="search">
+            </div>
+        </section>
     </header>
     <main>
-        <div class="superheroes">
+        <div class="superHeroInfo">
+        </div>
     </main>
-<script src="scripts/heroesApi.js"></script>
+    <script src="scripts/heroesApi.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+        WebFont.load({ google: { families: ["Nunito Sans", "Quicksand", "IBM Plex Sans"] } });
+    </script>
 </body>
+
 </html>
