@@ -1,0 +1,52 @@
+body{
+    background-color: #F6F0ED;
+    font-family: "Nunito Sans", sans-serif;
+}
+
+header{
+    align-items:center;
+    justify-content:center;
+    background-color:#0B132B;
+    font-family: 'Nunito Sans', sans-serif;
+    color: #F6F0ED;;
+    display:block;
+    padding:1rem;
+}
+
+.superheroSearch{
+    display:flex;
+}
+
+#submitSearch {
+    background-color: #7EA8BE; 
+    border: none;
+    color: #F6F0ED;
+    padding: 12px 28px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin-left:1rem;
+  }
+
+#heroSearch{
+    margin-left:1rem;
+}
+
+label{
+    font-size:1.4rem;
+}
+
+.superHeroInfo section{
+    padding: 2rem;
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+    background-color: rgba(126, 168, 190,0.5);
+    margin-top: 2rem;
+}
+
+img{
+    width: 20%;
+}
+
+
